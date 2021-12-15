@@ -1,5 +1,4 @@
 const fs = require('fs/promises');
-const { prependOnceListener } = require('process');
 
 async function part1() {
     let pos = {
