@@ -32,4 +32,18 @@ async function part1() {
     return parseInt(gamma, 2) * parseInt(epsilon, 2);
 }
 
+async function part2() {
+    const file = await fs.readFile('./inputs/day03.txt');
+    let data = file.toString().split('\n');
+
+    let oxygenGenerator = '';
+    let co2Scrubber = '';
+
+    let lifeSupport = parseInt(oxygenGenerator, 2) * parseInt(co2Scrubber, 2);
+
+    
+
+
+}
+
 part1().then(val => console.log(val));
